@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resort</title>
+</head>
+<body style="background-color: blanchedalmond;">
+  <a href="Booking.html"> Book now</a>
+    <style>
+        .slideshow-container {
+          position: relative;
+          max-width: 100%;
+          margin: auto;
+        }
+        .slides {
+          display: none;
+        }
+        .slides img {
+          width: 100%;
+          height: auto;
+        }
+        .prev, .next {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          margin-top: -22px;
+          padding: 16px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+        }
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        .prev:hover, .next:hover {
+          background-color: rgba(0, 0, 0, 0.8);
+        }
+      </style>
+    </head>
+    <body>
+    
+    <div class="slideshow-container">
+      <div class="slides fade">
+        <img src="c:\Users\Sanya\Documents\Web Class Assignment\images\opening.jpg" alt="hotel and resort">
+      </div>
+      <div class="slides fade">
+        <img src="c:\Users\Sanya\Documents\Web Class Assignment\images\opening.jpg" alt="Single bed">
+      </div>
+      <div class="slides fade">
+        <img src="c:\Users\Sanya\Documents\Web Class Assignment\images\15 Cozy Cabin Decor Ideas for a Warm Winter - Nikki's Plate.jpeg" alt="Family house">
+      </div>
+      <div class="slides fade">
+        <img src="c:\Users\Sanya\Documents\Web Class Assignment\images\Welcome to our hotels in Agra, India _ Radisson Hotels.jpeg" alt="Couple room">
+      </div>
+      <div class="slides fade">
+        <img src="c:\Users\Sanya\Documents\Web Class Assignment\images\Therapist applying massage oil on be.jpeg" alt="Spa">
+      </div>
+      <div class="slides fade">
+        <img src="c:\Users\Sanya\Documents\Web Class Assignment\images\download (20).jpeg" alt="Gym">
+      </div>
+
+      <!-- Add more slides as needed -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+    
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+    
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("slides");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";
+      }
+    </script>
+
+    <h1>SUITES</h1>
+    <P>Our spacious suites give a feel of an executive apartment with added luxuries and a well stacked mini bar, deluxe bath products to better bedding and an enhanced work station</P>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2"> ROOM </th>
+                <th colspan="2">PRICES</th>
+                <th colspan="2"> PEOPLE </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td colspan="2">Suite</td>
+                <td colspan="2">26000</td>
+                <td colspan="2"> 3 people </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Family house</td>
+                <td colspan="2">35000</td>
+                <td colspan="2"> 5- 7 people</td>
+            </tr>
+
+            
+            <tr>
+                <td colspan="2">Friend block</td>
+                <td colspan="2">37000</td>
+                <td colspan="2"> 12 people</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Couple room</td>
+                <td colspan="2">18000</td>
+                <td colspan="2">2 people</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Single room</td>
+                <td colspan="2">15000</td>
+                <td colspan="2">1 person</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div>
+    <h2><i>GYM & SPA</i></h2>
+    <P>Explore a whole world of beauty, health and well-being in our expansive Spa & Fitness Centre. 
+        Take your time browsing our extensive treatment menu to find your perfect method of relaxation.</P>
+    
+       <H3>SPA SERVICES</H3> 
+       <P>Rejuvenating facials, invigorating body scrubs and soothing massages inspired by African traditions.</P>
+       <ul>
+        <h4>YOUR BODY</h4>
+        <li>Backspoke Massage - ksh 7250 </li>
+        <li>Aroma Massage - ksh 7500</li>
+        <li>Hot Stone Massage - ksh 9500</li>
+        <li>Deep Massage - ksh 7500</li>
+        <li>Foot Reflex - ksh 4050</li>
+        <li>Couple's Massage - price on request</li>
+        </ul>
+
+       <ul>
+        <H4>YOU FACE</H4>
+        <li>Bespoke Facial - ksh 9500</LI>
+        <li>Anti-ageing Facial - ksh 13500</li>
+        <li>Hydra Boost Express Facial - ksh 4500</li>
+        <li>Men's facial - ksh 9500</li>
+       </ul>
+       
+       <h3>FITNESS AND POOL</h3>
+       <p>Enjoy an invigorating workout at our modern fitness centre, complete with a heated swimming pool.</p>
+
+       <h2>SPA MEMBERSHIP</h2>
+       <P>Spa memberships are available at Ilomilo The Spa from monthly packages to annual programs.</P>
+       <UL>
+        <LI>GOLD MEMBERSHIP</LI>
+        <LI>SILVER MEMBERSHIP</LI>
+        <LI>RED LIFESTYLE PACKAGE</LI>
+        <LI>SIX MONTH MEMBERSHIP</LI>
+        <LI>GROUP CLASSES AT THE FITNESS CENTRE</LI>
+       </UL>
+
+       <table>
+        <thead>
+            <tr>
+                <th><a href="index.html">Home page</a></th>
+                <th><a href="restaurant.html"> Restaurant</a></th>
+                <th><a href="Entertainment.html"> Entertainment</a></th>
+                <th><a href="Bars and drinks.html">Bars and drinks</a></th>
+                <th><a href="Outdoor Catering.html"> Outdoor Catering</a></th>
+
+            </tr>
+        </thead>
+    </table>
+    </div>  
+</body>
+</html>
