@@ -1,53 +1,132 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         body {
+            font-family: 'Roboto', sans-serif;
             background-image: url('abstract art.jpeg');
-            background-size: cover; /* Ensures the background image covers the entire page */
-            background-repeat: no-repeat; /* Prevents the background image from repeating */
-            background-attachment: fixed; /* Keeps the background image fixed when scrolling */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
         }
 
         .form-container {
-            text-align: center;
-            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for better readability */
-            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
             border-radius: 10px;
-            display: inline-block;
-            margin-top: 50px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 350px;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .form-container h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #444;
+            color: #6A1B9A; /* Purple */
+        }
+
+        .form-container label {
+            font-weight: 500;
+            display: block;
+            margin-bottom: 5px;
+            text-align: left;
+        }
+
+        .form-container input[type="text"],
+        .form-container input[type="number"],
+        .form-container input[type="email"],
+        .form-container input[type="date"],
+        .form-container input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .form-container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #333; /* Dark grey */
+            border: none;
+            border: radius 3px;;
+            color:#444;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-bottom: 10px;
+        }
+
+        .form-container input[type="submit"]:hover {
+            background-color: #E64A19; /* Darker orange */
+        }
+
+        .form-container input[type="submit"]:nth-child(2) {
+            background-color: #2196F3; /* Blue */
+        }
+
+        .form-container input[type="submit"]:nth-child(2):hover {
+            background-color: #1976D2; /* Darker blue */
+        }
+
+        .form-container input[type="submit"]:nth-child(3) {
+            background-color: #4CAF50; /* Green */
+        }
+
+        .form-container input[type="submit"]:nth-child(3):hover {
+            background-color: #388E3C; /* Darker green */
         }
     </style>
 </head>
 <body>
     <div class="form-container">
-        <h1>BOOKING DETAILS</h1>
+        <h1>Booking Details</h1>
         <form method="POST" action="">
-            <label for="id">Booking ID (for Update/Delete)</label><br>
-            <input type="number" id="id" name="id" placeholder="Booking ID"><br><br>
+            <label for="id">Booking ID (for Update/Delete)</label>
+            <input type="number" id="id" name="id" placeholder="Booking ID">
 
-            <label for="fn">Fullname</label><br>
-            <input type="text" id="fn" name="fullname" placeholder="Fullname" required><br><br>
+            <label for="fn">Fullname</label>
+            <input type="text" id="fn" name="fullname" placeholder="Fullname" required>
 
-            <label for="age">Age</label><br>
-            <input type="number" id="age" name="age" placeholder="Age" required><br><br>
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" placeholder="Age" required>
 
-            <input type="email" id="email" name="email" placeholder="Email address" required><br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email address" required>
 
-            <label for="no_of_people">Number of people</label><br>
-            <input type="number" id="no_of_people" name="no_of_people" placeholder="Number of people" required><br><br>
+            <label for="no_of_people">Number of people</label>
+            <input type="number" id="no_of_people" name="no_of_people" placeholder="Number of people" required>
 
-            <label for="date">Date</label><br>
-            <input type="date" id="date" name="date" required><br><br>
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required>
 
-            <label for="children">Number of children</label><br>
-            <input type="number" id="children" name="children" placeholder="Number of children" required><br><br>
+            <label for="children">Number of children</label>
+            <input type="number" id="children" name="children" placeholder="Number of children" required>
 
-            <label for="phone">Phone number</label><br>
-            <input type="tel" id="phone" name="phone" placeholder="Phone number" required><br><br>
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Phone number" required>
 
             <input type="hidden" name="action" value="create">
             <input type="submit" value="Create Booking">
@@ -125,4 +204,3 @@
     ?>
 </body>
 </html>
-
