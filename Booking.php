@@ -51,14 +51,16 @@
 <body>
   <button class="save-button" onclick="saveDetails()">Save Details</button>
 
-  <script>
+  <script> 
     function saveDetails() {
       // Here you can add JavaScript code to handle saving details
       // For example, you can use AJAX to send data to the server
       alert('Details saved!'); // Example alert, replace with actual save logic
     }
-  </script>
-
+  </script> 
+<?php
+include ("connection.php");
+ ?>
    
 </body>
 </html>
