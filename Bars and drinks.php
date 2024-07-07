@@ -7,7 +7,9 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: bisque;
+            background-image: url('images/cocktails.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
             margin: 0;
             padding: 0;
             line-height: 1.6;
@@ -15,7 +17,10 @@
         .container {
             max-width: 1000px;
             margin: auto;
-            padding: 2px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Adding a semi-transparent white background for better readability */
+            border-radius: 10px; /* Adding rounded corners to the container */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow effect */
         }
         a {
             display: inline-block;
@@ -31,9 +36,10 @@
         }
         img {
             max-width: 100%;
-            height: 100%;
+            height: auto;
             display: block;
             margin-top: 20px;
+            border-radius: 10px; /* Adding rounded corners to images */
         }
         h3 {
             text-align: center;
