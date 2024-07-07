@@ -9,18 +9,19 @@
             font-family: Arial, sans-serif;
             background-image: url("images/pool.jpeg");
             background-size: cover;
-            background-repeat: no-repeat;
+            background-position: center;
             margin: 0;
             padding: 0;
+            color: #333;
             line-height: 1.6;
         }
         .container {
             max-width: 800px;
             margin: auto;
             padding: 20px;
-            background-color: rgba(255, 255, 255, 0.9); /* Added semi-transparent white background for better readability */
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
             border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Added box shadow for depth */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
         }
         .slideshow-container {
             position: relative;
@@ -34,7 +35,6 @@
             width: 100%;
             height: 400px; /* Adjust this value to set the desired height */
             object-fit: cover; /* Ensures the images maintain aspect ratio */
-            border-radius: 10px;
         }
         .prev, .next {
             cursor: pointer;
@@ -65,8 +65,9 @@
             width: 100%;
             border-collapse: collapse;
             margin-bottom: 20px;
-            background-color: bisque; /* Added background color to table headers */
-            border-radius: 10px;
+        }
+        table, th, td {
+            
         }
         th, td {
             padding: 10px;
@@ -100,22 +101,22 @@
     <div class="container">
         <div class="slideshow-container">
             <div class="slides fade">
-                <img src="images/opening.jpg" alt="hotel and resort">
+                <img src="opening.jpg" alt="hotel and resort">
             </div>
             <div class="slides fade">
-                <img src="images/Unique NYC Hotels_ Soho House » Whalebone.jpeg" alt="Single bed">
+                <img src="opening.jpg" alt="Single bed">
             </div>
             <div class="slides fade">
-                <img src="Welcome to our hotels in Agra, India _ Radisson Hotels.jpeg" alt="Family house">
+                <img src="15 Cozy Cabin Decor Ideas for a Warm Winter - Nikki's Plate.jpeg" alt="Family house">
             </div>
             <div class="slides fade">
-                <img src="one bed.jpg" alt="Couple room">
+                <img src="Welcome to our hotels in Agra, India _ Radisson Hotels.jpeg" alt="Couple room">
             </div>
             <div class="slides fade">
-                <img src="images/The Spa - for a Heart-warming Relaxation.jpeg" alt="Spa">
+                <img src="Therapist applying massage oil on be.jpeg" alt="Spa">
             </div>
             <div class="slides fade">
-                <img src="images/download (20).jpeg" alt="Gym">
+                <img src="download (20).jpeg" alt="Gym">
             </div>
 
             <!-- Add more slides as needed -->
@@ -137,27 +138,27 @@
             <tbody>
                 <tr>
                     <td>Suite</td>
-                    <td>26,000</td>
+                    <td>26000</td>
                     <td>3 people</td>
                 </tr>
                 <tr>
                     <td>Family house</td>
-                    <td>35,000</td>
+                    <td>35000</td>
                     <td>5-7 people</td>
                 </tr>
                 <tr>
                     <td>Friend block</td>
-                    <td>37,000</td>
+                    <td>37000</td>
                     <td>12 people</td>
                 </tr>
                 <tr>
                     <td>Couple room</td>
-                    <td>18,000</td>
+                    <td>18000</td>
                     <td>2 people</td>
                 </tr>
                 <tr>
                     <td>Single room</td>
-                    <td>15,000</td>
+                    <td>15000</td>
                     <td>1 person</td>
                 </tr>
             </tbody>
@@ -170,11 +171,11 @@
             <h3>SPA SERVICES</h3>
             <p>Rejuvenating facials, invigorating body scrubs, and soothing massages inspired by African traditions.</p>
             <ul>
-                <li>Backspoke Massage - Ksh 7,250</li>
-                <li>Aroma Massage - Ksh 7,500</li>
-                <li>Hot Stone Massage - Ksh 9,500</li>
-                <li>Deep Massage - Ksh 7,500</li>
-                <li>Foot Reflex - Ksh 4,050</li>
+                <li>Backspoke Massage - Ksh 7250</li>
+                <li>Aroma Massage - Ksh 7500</li>
+                <li>Hot Stone Massage - Ksh 9500</li>
+                <li>Deep Massage - Ksh 7500</li>
+                <li>Foot Reflex - Ksh 4050</li>
                 <li>Couple's Massage - price on request</li>
             </ul>
             
