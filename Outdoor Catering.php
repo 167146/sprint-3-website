@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: 'Roboto', sans-serif;
-            background-image: url('BEIGE WALLPAPER.jpeg');
+            background-image: url('images/love.jpeg');
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -15,13 +15,17 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             color: #333;
         }
         .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             max-width: 800px;
             margin: auto;
             padding: 20px;
+            text-align: center;
         }
         a {
             display: inline-block;
@@ -30,7 +34,7 @@
             padding: 10px 20px;
             text-decoration: none;
             border-radius: 5px;
-            margin: 20px;
+            margin: 20px 0;
             transition: background-color 0.3s, color 0.3s;
         }
         a:hover {
@@ -57,28 +61,29 @@
         table {
             width: 100%;
             border-collapse: collapse;
+            margin-top: 20px;
         }
         table, th, td {
-            border: 1px #ddd;
+            border: 1px solid #ddd;
             padding: 10px;
             text-align: left;
         }
         th {
-            background-color: bisque;
+            background-color: pink; 
         }
         th a, td a {
             text-decoration: none;
-            color: white;
+            color: #333;
         }
         th a:hover, td a:hover {
-            color: #666;
+            color: darkslategray;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <a href="Booking.php">Book now</a>
-        <img src="outside catering.jpg" alt="Outdoor Catering" width="1000" height="500">
+        <img src="outside catering.jpg" alt="Outdoor Catering">
         <h1><i>OUTSIDE CATERING</i></h1>
         <p>At Ilomilo Hotel, we believe in turning every occasion into a memorable experience. Whether it's a wedding, corporate gathering, birthday celebration, or any special event, our outside catering service is here to make it extraordinary. From international delicacies to local favorites, we offer a diverse range of culinary delights that will leave your guests raving. Our catering team takes care of every detail, from setup to serving, ensuring a hassle-free and delightful experience for you and your guests.</p>
         <p>Need more than just food? We offer complete event planning services, including decor, entertainment, and logistics, to ensure your event is a resounding success.</p>
