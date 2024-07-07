@@ -96,7 +96,7 @@
     <a href="Booking.php">Book now</a>
     <div class="container">
         <div class="content">
-            <img src="images/inside restaurant.jpg" alt="restaurant" width="1000" height="900">
+            <img src="images/food.jpeg" alt="food" width="1000" height="900">
             <p>Enjoy great food with family and friends.
             We offer delightful variety of international cuisine, well roasted coffees, teas, light meals, smoothies, desserts and superb pastries<br> under one roof of The Ilomilo Hotel Nairobi.</p>
 
