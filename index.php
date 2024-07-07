@@ -6,13 +6,15 @@
     <title>ILOMILO HOTEL</title>
     <style>
         body {
-            background-color: bisque;
+            background-image: url('images/entagalactic.jpeg'); /* Updated background image */
+            background-size: cover;
+            background-repeat: no-repeat;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
         nav {
-            background-color: grey;
+            background-color: black;
             padding: 10px 0;
         }
         nav ul {
@@ -37,15 +39,14 @@
             background-color: white;
             color: aquamarine;
         }
-        body {
-            background-color: bisque;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
         div {
             text-align: center;
             padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            border-radius: 10px;
+            max-width: 800px;
+            margin: 50px auto; /* Centering the div */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
         }
         h1 {
             color: #333;
@@ -71,8 +72,6 @@
             margin-bottom: 20px;
         }
     </style>
-        
-    
 </head>
 <body>
     <nav>
@@ -93,7 +92,7 @@
             Enjoy our elegant 200 rooms and suites; exceptional spa and restaurants.</p>
 
         <h2><i>RESTAURANT</i></h2>
-        <img src="restaurant.jpg" alt="background "/>
+        <img src="restaurant.jpg" alt="Restaurant"/>
         <p>Immerse yourself in a rich culinary experience accentuated with Italian classics, Arabian flavours and international cuisine.<br> 
             Indulge in a symphony of flavors that will transport your taste buds to culinary paradise 🍽✨
         </p>
