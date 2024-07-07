@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking</title>
+    <style>
+        body {
+            background-image: url('abstract art.jpeg');
+            background-size: cover; /* Ensures the background image covers the entire page */
+            background-repeat: no-repeat; /* Prevents the background image from repeating */
+            background-attachment: fixed; /* Keeps the background image fixed when scrolling */
+        }
+
+        .form-container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for better readability */
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-top: 50px;
+        }
+    </style>
 </head>
-<body style="background-color: bisque;">
-    <div align="center">
-        <h1 align="center">BOOKING DETAILS</h1>
+<body>
+    <div class="form-container">
+        <h1>BOOKING DETAILS</h1>
         <form method="POST" action="">
             <label for="id">Booking ID (for Update/Delete)</label><br>
             <input type="number" id="id" name="id" placeholder="Booking ID"><br><br>
@@ -108,3 +125,4 @@
     ?>
 </body>
 </html>
+
