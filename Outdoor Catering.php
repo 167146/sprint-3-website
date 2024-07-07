@@ -6,12 +6,17 @@
     <title>Outdoor Catering</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: bisque;
+            font-family: 'Roboto', sans-serif;
+            background-image: url('BEIGE WALLPAPER.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
             margin: 0;
-            padding: 0;
-            line-height: 1.6;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
         }
         .container {
             max-width: 800px;
