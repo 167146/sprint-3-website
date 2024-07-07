@@ -5,23 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            background-color: bisque;
+            background-image: url('images/International Spices.jpeg');
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
         a {
             display: inline-block;
-            background-color: darkslategray;
+            background-color:darkgrey;
             color: white;
             padding: 10px 20px;
-            text-decoration: wavy;
+            text-decoration: none;
             border-radius: 5px;
             margin: 20px;
             transition: background-color 0.3s, color 0.3s;
         }
         a:hover {
-            background-color: darkgrey;
+            background-color: white;
         }
         .container {
             padding: 20px;
@@ -36,14 +36,14 @@
         .content p, .content ol, .content ul {
             grid-column: span 2;
             text-align: justify;
-            color: #666;
+            color: white;
             font-size: 1.2em;
             line-height: 1.6;
             max-width: 800px;
             margin: 0 auto 20px auto;
         }
         h2, h3 {
-            color: #444;
+            color: white;
             grid-column: span 2;
             text-align: center;
         }
@@ -96,14 +96,14 @@
     <a href="Booking.php">Book now</a>
     <div class="container">
         <div class="content">
-            <img src="images/inside restaurant.jpg" alt="restaurant" width=1000 height=900>
+            <img src="images/inside restaurant.jpg" alt="restaurant" width="1000" height="900">
             <p>Enjoy great food with family and friends.
             We offer delightful variety of international cuisine, well roasted coffees, teas, light meals, smoothies, desserts and superb pastries<br> under one roof of The Ilomilo Hotel Nairobi.</p>
 
             <h2>MENU</h2>
 
             <h3>BREAKFAST</h3>
-            <img src="images/breakfast.jpeg" alt="breakfast"width=500 height=400>
+            <img src="images/breakfast.jpeg" alt="breakfast" width="500" height="400">
             <ol>
                 <li>GOODMORNING PLATTER - 1750<br>
                     Crispy bacon, sausage, saute potatoes, grilled
@@ -120,7 +120,7 @@
             </ol>
 
             <h3>SOUPS</h3>
-            <img src="images/soups.jpeg" alt="soup" width=500 height=400>
+            <img src="images/soups.jpeg" alt="soup" width="500" height="400">
             <ul>
                 <li>Mushroom Soup - 600</li>
                 <li>Pasta and Noodle Soup - 600</li>
@@ -128,7 +128,7 @@
             </ul>
 
             <h3>PIZZAS/PASTAS</h3>
-            <img src="images/🤍.jpeg" alt="pizza" width=500 height=400>
+            <img src="images/🤍.jpeg" alt="pizza" width="500" height="400">
             <ol>
                 <li>Gold class (chefs special) - 1500<br>
                     Chicken, bacon, avocado and tomato slices
@@ -154,14 +154,14 @@
             </ol>
 
             <h3>DESSERTS</h3>
-            <img src="images/Baileys Cookies and Cream Parfaits.jpeg" alt="desserts"width=500 height=400>
+            <img src="images/Baileys Cookies and Cream Parfaits.jpeg" alt="desserts" width="500" height="400">
             <ul>
                 <li>Apple Pie - 800</li>
                 <li>Fruit Plate/Salad - 500</li>
             </ul>
 
             <h3>TEA</h3>
-            <img src="images/tea.jpeg" alt="tea" width=500 height=400>
+            <img src="images/tea.jpeg" alt="tea" width="500" height="400">
             <ul>
                 <li>Black Masala Tea - 350</li>
                 <li>Kenyan Tea Pot - 350</li>
@@ -182,7 +182,7 @@
                 <li>Mini Pizza - 700</li>
                 <li>Chips - 350</li>
             </ul>
-            <img src="images/kids.jpeg" alt="kids" width=500 height=400 >
+            <img src="images/kids.jpeg" alt="kids" width="500" height="400">
         </div>
 
         <table>
