@@ -43,7 +43,7 @@
         }
         h3 {
             text-align: center;
-            color: #333;
+            color: white;
             margin-top: 20px;
         }
         p {
