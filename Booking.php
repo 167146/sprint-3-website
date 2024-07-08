@@ -188,7 +188,7 @@
             // Delete a booking
             $stmt = $conn->prepare("DELETE FROM guest WHERE id=?");
             if ($stmt === false) {
-                die("Error preparing the statement: " . $conn->error);
+                diqe("Error preparing the statement: " . $conn->error);
             }
             $stmt->bind_param("i", $id);
             if ($stmt->execute()) {
